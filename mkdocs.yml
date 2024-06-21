@@ -1,1 +1,50 @@
 site_name: GenomicMaps
+site_description: 'MAPS2024 Transgressing Borders Repository'
+site_author: Michael Baudis
+copyright: '&copy; Copyright 2024 Michael Baudis'
+repo_name: 'genomicmaps.github.io'
+repo_url: https://github.com/genomicmaps/genomicmaps.github.io
+
+theme:
+  name: material
+
+plugins:
+    - search
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2-3
+      permalink: true
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      hide_protocol: true
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.saneheaders
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - mdx_gh_links:
+      user: hCNV
+      repo: hcnv.github.io
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - extras/.icons
+
+extra:
+  excerpt_separator: <!--more-->
+  blog_list_length: 100
+  news:
+    dir: news
