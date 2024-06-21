@@ -36,12 +36,6 @@ markdown_extensions:
   - mdx_gh_links:
       user: hCNV
       repo: hcnv.github.io
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      options:
-        custom_icons:
-          - extras/.icons
 
 extra:
   excerpt_separator: <!--more-->
