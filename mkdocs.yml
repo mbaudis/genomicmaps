@@ -16,26 +16,26 @@ markdown_extensions:
       toc_depth: 2-3
       permalink: true
   - admonition
-  - attr_list
-  - footnotes
-  - md_in_html
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      hide_protocol: true
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.saneheaders
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - tables
-  - mdx_gh_links:
-      user: hCNV
-      repo: hcnv.github.io
+  # - attr_list
+  # - footnotes
+  # - md_in_html
+  # - pymdownx.critic
+  # - pymdownx.caret
+  # - pymdownx.details
+  # - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     hide_protocol: true
+  # - pymdownx.mark
+  # - pymdownx.tilde
+  # - pymdownx.saneheaders
+  # - pymdownx.tabbed:
+  #     alternate_style: true
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - tables
+  # - mdx_gh_links:
+  #     user: hCNV
+  #     repo: hcnv.github.io
 
 extra:
   excerpt_separator: <!--more-->
